@@ -1,0 +1,139 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.village-header {
+    background-image: url('village.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: green;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.image-gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-gallery h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-card:hover {
+    transform: scale(1.1);
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.modal-content p {
+    color: #555;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close:hover {
+    color: #333;
+}
+/* Style for the box */
+
+/* Style for the box */
+.box {
+    width: 300px;  /* Set the width of the box */
+    height: auto;  /* Height adjusts automatically based on the content */
+    padding: 20px;  /* Add some space inside the box */
+    margin: 20px auto;  /* Center the box horizontally */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);  /* Beautiful gradient background */
+    border: 2px solid #fff;  /* White border for contrast */
+    border-radius: 15px;  /* More rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);  /* Subtle shadow with more depth */
+    font-family: 'Arial', sans-serif;  /* Font style */
+    transition: all 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the box */
+.box:hover {
+    transform: scale(1.05);  /* Slight zoom-in effect */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);  /* Deeper shadow on hover */
+}
+
+/* Style for the paragraph inside the box */
+.box p {
+    font-size: 16px;  /* Adjust the font size */
+    color: #fff;  /* White text for contrast on gradient background */
+    line-height: 1.5;  /* Space between lines */
+    margin: 0;  /* Remove default margin */
+    text-align: center;  /* Center the text */
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/bokeh-bubbles-sun-flash-blue-background_1182-1745.jpg');  /* Path to the image */
+    background-size: cover;  /* Ensures the image covers the entire page */
+    background-position: center center;  /* Centers the image on the page */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    margin: 0;  /* Removes default margin */
+}
+
+
